@@ -1,0 +1,4 @@
+example for
+ 
+1) @XmlElementWrapper
+2) @XmlElements

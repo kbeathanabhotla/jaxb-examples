@@ -1,0 +1,5 @@
+example for
+ 
+1) @XmlValue
+2) @XmlAttribute
+3) @XmlJavaTypeAdapter

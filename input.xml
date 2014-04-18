@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <value id="foo">
+    <Foo xmlns="java:com.tagcmd.example6">
+      <a>5</a>
+      <b>text</b>
+      <c>xyzw</c>
+      <!-- inject bar bean here -->
+    </Foo>
+  </value>
+  <value id="sdf">
+    <Bar xmlns="java:com.tagcmd.example6">
+      <x>3</x>
+      <y>5</y>
+    </Bar>
+  </value>
+</container>
