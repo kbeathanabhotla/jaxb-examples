@@ -55,6 +55,7 @@ public class USAddress {
     private int    zip;
    
     public USAddress(String name, String street, String city, String state, int zip) {
+    	System.out.println("creating USAddress object from constructor......");
         this.name = name;
         this.street = street;
         this.city = city;

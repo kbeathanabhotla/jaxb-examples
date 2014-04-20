@@ -1,4 +1,3 @@
 example for
  
-1) @XmlType
-2) @XmlTransient
+1) @XmlTransient

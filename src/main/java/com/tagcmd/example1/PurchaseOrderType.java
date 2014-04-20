@@ -4,7 +4,6 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="purchaseOrder")
-@XmlType(name="PurchaseOrderType")
 public class PurchaseOrderType {
 
     public USAddress shipTo;

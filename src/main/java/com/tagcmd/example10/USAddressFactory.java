@@ -42,6 +42,9 @@ package com.tagcmd.example10;
 
 public class USAddressFactory {
     public static USAddress getUSAddress(){
+    	
+    	System.out.println("using factory method to create USAddress object......");
+    	
         return new USAddress("Mark Baker", "23 Elm St", 
             "Dayton", "OH", 90952);
     }
