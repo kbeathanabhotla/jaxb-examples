@@ -1,3 +1,4 @@
 example for
  
-1) Custom Character Escape Handler
+1) XmlIDREF
+2) Class Resolver

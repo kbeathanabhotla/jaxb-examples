@@ -1,3 +1,0 @@
-example for
- 
-1) @XmlList
