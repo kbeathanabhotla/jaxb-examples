@@ -1,0 +1,18 @@
+<container>
+  <property>value for property 1</property>
+  <summary>this is a test summary</summary>
+  <rawdata>
+  	<document>
+  		<id>1</id>
+  		<name>Document name for document 1</name>
+  	</document>
+  	<document>
+  		<id>2</id>
+  		<name>Document name for document 2</name>
+  	</document>
+  	<document>
+  		<id>3</id>
+  		<name>Document name for document 3</name>
+  	</document>
+  </rawdata>
+</container>
