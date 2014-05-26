@@ -18,14 +18,23 @@ public class MainClass
 		m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 		
 		String content = "<list>"
-							+"<data>D1</data>"
-							+"<data>D2</data>"
-							+"<data>D3</data>"
-							+"<data>D4</data>"
-						+"</list>";
-		
+				+"<data>D1</data>"
+				+"<data>D2</data>"
+				+"<data>D3</data>"
+				+"<data>D4</data>"
+			+"</list>";
+
 		ListDomain listDomain = (ListDomain) u.unmarshal(new StringReader(content));
+
+		System.out.println(listDomain.toString());
 		
+		content = "<list>"
+						+"<data>D1 D2 D3 d4</data>"
+					+"</list>";
+
+		listDomain = (ListDomain) u.unmarshal(new StringReader(content));
+
+
 		System.out.println(listDomain.toString());
 		
 		List<String> data = new ArrayList<String>(); 
